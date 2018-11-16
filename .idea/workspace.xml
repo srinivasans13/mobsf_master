@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61e30277-e0e7-45b7-a738-978956f1685a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MobSF.py" beforeDir="false" afterPath="$PROJECT_DIR$/MobSF.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/OutDocument/mobsf_assesment_generation.py" beforeDir="false" afterPath="$PROJECT_DIR$/OutDocument/mobsf_assesment_generation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OutDocument/temp.htm" beforeDir="false" afterPath="$PROJECT_DIR$/OutDocument/temp.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input/ionicmobileapp-0.0.1-0.0.1.ipa" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mobsf_report_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/mobsf_report_generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pdf_related_files/ionicmobileapp-0_report.pdf" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,35 +21,37 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="htm" value="1" />
-          <entry key="py" value="8" />
+          <entry key="py" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="Python" value="8" />
+          <entry key="Python" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="51" />
-          <entry key="py" value="1721" />
+          <entry key="py" value="1725" />
+          <entry key="txt" value="45" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="1772" />
+          <entry key="PLAIN_TEXT" value="45" />
+          <entry key="Python" value="1776" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MobSF.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-150">
-              <caret line="17" column="64" lean-forward="true" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+            <state relative-caret-position="10">
+              <caret line="172" column="24" lean-forward="true" selection-start-line="172" selection-start-column="24" selection-end-line="172" selection-end-column="24" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -95,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/OutDocument/mobsf_assesment_generation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6885">
-              <caret line="405" lean-forward="true" selection-start-line="405" selection-end-line="405" />
+            <state relative-caret-position="-40">
+              <caret line="393" column="28" lean-forward="true" selection-start-line="393" selection-start-column="28" selection-end-line="393" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -141,13 +136,13 @@
       <find>INPUT_FOLDER</find>
       <find>input_file</find>
       <find>json_file['name']</find>
-      <find>No Issues Found</find>
       <find>execute</find>
       <find>clear</find>
+      <find>No Issues Found</find>
     </findStrings>
     <replaceStrings>
-      <replace>Constants.INPUT_FILE</replace>
       <replace>Failed to scan the</replace>
+      <replace>Constants.INPUT_FILE</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -159,15 +154,15 @@
         <option value="$PROJECT_DIR$/OutDocument/assessment_generation.py" />
         <option value="$PROJECT_DIR$/HelperFunctions.py" />
         <option value="$PROJECT_DIR$/Constants.py" />
-        <option value="$PROJECT_DIR$/OutDocument/mobsf_assesment_generation.py" />
         <option value="$PROJECT_DIR$/mobsf_report_generator.py" />
         <option value="$PROJECT_DIR$/MobSF.py" />
+        <option value="$PROJECT_DIR$/OutDocument/mobsf_assesment_generation.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-32" />
-    <option name="y" value="77" />
+    <option name="x" value="151" />
+    <option name="y" value="82" />
     <option name="width" value="1994" />
     <option name="height" value="1156" />
   </component>
@@ -202,6 +197,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/OutDocument" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -256,11 +252,18 @@
       <option name="presentableId" value="Default" />
       <updated>1542260132179</updated>
     </task>
+    <task id="LOCAL-00001" summary="changed according to new version">
+      <created>1542348069775</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1542348069776</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-32" y="77" width="1994" height="1156" extended-state="0" />
-    <editor active="true" />
+    <frame x="151" y="82" width="1994" height="1156" extended-state="0" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
@@ -268,10 +271,10 @@
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" weight="0.3297244" />
       <window_info anchor="bottom" id="Terminal" weight="0.3297244" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.5005081" side_tool="true" visible="true" weight="0.3297244" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3297244" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49949187" visible="true" weight="0.3297244" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -283,6 +286,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="changed according to new version" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed according to new version" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/xmltreeDict.py">
@@ -318,13 +325,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OutDocument/mobsf_assesment_generation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6885">
-          <caret line="405" lean-forward="true" selection-start-line="405" selection-end-line="405" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mobsf_report_generator.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
@@ -349,11 +349,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/MobSF.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="17" column="64" lean-forward="true" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+        <state relative-caret-position="10">
+          <caret line="172" column="24" lean-forward="true" selection-start-line="172" selection-start-column="24" selection-end-line="172" selection-end-column="24" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OutDocument/mobsf_assesment_generation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40">
+          <caret line="393" column="28" lean-forward="true" selection-start-line="393" selection-start-column="28" selection-end-line="393" selection-end-column="28" />
         </state>
       </provider>
     </entry>

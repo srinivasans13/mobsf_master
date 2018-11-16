@@ -377,7 +377,7 @@ def createATSandBinary(json_file):
             modified_html_code += """
             <tr><td>{}</td><td>{}</td><td>{}</td></tr>""".format(i['issue'],i['status'],i['description'])
     except KeyError:
-        modified_html_code +="<p>No Issues Found</p>"
+        pass
 
     modified_html_code = modified_html_code + """
                </table>
@@ -401,8 +401,11 @@ def fileAnalysis(json_file):
             """
     try:
         for i in json_file['file_analysis']:
+            temp = ""
+            for j in i['files']:
+                temp += "{}<br>".format(j)
             modified_html_code += """
-            <tr><td>{}</td><td>{}</td></tr>""".format(i['issue'], [x for x in i['files']])
+            <tr><td>{}</td><td>{}</td></tr>""".format(i['issue'], temp)
 
     except KeyError:
         modified_html_code +="<p>No Issues Found</p>"
