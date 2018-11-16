@@ -8,14 +8,14 @@ import PyPDF2
 import os
 
 def generate_report(report_json):
-    platform = ""
+
     try:
         if report_json['manifest']:
             generate_android_report(report_json,platform = "Android")
 
     except KeyError:
         generate_report_ipa(report_json, platform="iOS")
-        platform ="iOS"
+
 
 def generate_android_report(report_json,platform):
     returnpdf()
@@ -23,6 +23,7 @@ def generate_android_report(report_json,platform):
     createAppSummary(report_json,platform)
 
     return_pdf(Constants.NAME_WITHOUT_EXTN,platform)
+
     createCertificate(report_json['certinfo'])
     createManifest(report_json['manifest'])
     createPermissions(report_json['permissions'])
@@ -44,19 +45,13 @@ def generate_android_report(report_json,platform):
     final_file_object.close()
 
 def generate_report_ipa(report_json,platform):
-    platform = ""
-    try:
-        if report_json['plist']:
-            platform = "iOS"
-    except KeyError:
-        platform ="Android"
 
     returnpdf()
     glossary.return_pdf()
     createAppSummary(report_json,platform)
     return_pdf(Constants.NAME_WITHOUT_EXTN,platform)
     createATSandBinary(report_json)
-    createPermissioniOS(report_json['permissions'])
+    createPermissioniOS(report_json)
     fileAnalysis(report_json)
 
 

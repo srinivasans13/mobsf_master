@@ -64,7 +64,7 @@ def prepare_directory():
 def get_input():
 
     Constants.INPUT_FOLDER = get_full_path("input")
-    Constants.INPUT_FILE = copy_file_source_destination(input().strip(),Constants.INPUT_FOLDER)
+    Constants.INPUT_FILE = copy_file_source_destination(str(input().strip('\n')),Constants.INPUT_FOLDER)
     Constants.NAME = Constants.INPUT_FILE.split('/')[-1]
     Constants.NAME_WITHOUT_EXTN = Constants.NAME.split('.')[0]
     Constants.EXTN = Constants.NAME.split('.')[-1]
@@ -188,7 +188,6 @@ def download_report_as_dictionary():
                                        headers=post_headers,proxies=getproxies(),auth=auth)
         if app_report_json.status_code == 200:
             print(f"Successfully downloaded scan report of the application")
-            #print(app_report_json.content.decode())
             return json.loads(app_report_json.content.decode('UTF_8'))
         else:
             print(f"Failed to scan theapplication, error message : {app_report_json.content}")
